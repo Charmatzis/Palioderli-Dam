@@ -48,15 +48,18 @@ if("palioderli-dem@1" < 412, 412, "palioderli-dem@1")
 
 ## Analysis
 
-Water deposit of the Palioderli Dam
+### Water deposit of the Palioderli Dam
 
 ![Water Deposit](./images/water-deposit.jpeg)
 *Figure 1. Palioderli dam water deposit after filling with 76 meter water height.*
 
-![Psedo 3D Map](./images/psedo-3d.jpeg)
-#Figure 2. Psedo 3D map,  after being filled the dam with water*
+### 3D Psedo topography
 
-Viewshed from the Skopia village to the water deposit
+![Psedo 3D Map](./images/psedo-3d.jpeg)
+*Figure 2. Psedo 3D map, after being filled the dam with water*
+
+### Viewshed from the Skopia village to the water deposit
+
 ![Viewshed](./images/viewshed.jpeg)
 *Figure 3. Skopia viewshed of the area, after being filled the dam with water*
 
