@@ -1,10 +1,16 @@
 # Palioderli-Dam
 This repository is the water deposit analysis of the Palioderli dam at Skopia (Greece)
 
+## Introduction
+
+Skopia (Greece) is a small village in Municipality of Farsala, more [here](https://el.wikipedia.org/wiki/%CE%A3%CE%BA%CE%BF%CF%80%CE%B9%CE%AC_%CE%A6%CE%B1%CF%81%CF%83%CE%AC%CE%BB%CF%89%CE%BD).
+In 2021 was announced a big project of creating a water dam in the local area of [Palioderli](./data/report/analytiko_enimerotiko_fragmatos_skopias_9_2009.pdf).
+
 ## Requirements
 
 - Docker
 - GDAL
+- QGIS
 
 ## Input Data
 
@@ -40,13 +46,20 @@ Calculate the DEM after filling the dam, in QGIS -> Raster Calculator
 if("palioderli-dem@1" < 412, 412, "palioderli-dem@1")
 ```
 
-## Visualization
+## Analysis
 
 Water deposit of the Palioderli Dam
 
 ![Water Deposit](./images/water-deposit.jpeg)
 *Figure 1. Palioderli dam water deposit after filling with 76 meter water height.*
 
+![Psedo 3D Map](./images/psedo-3d.jpeg)
+#Figure 2. Psedo 3D map,  after being filled the dam with water*
+
 Viewshed from the Skopia village to the water deposit
 ![Viewshed](./images/viewshed.jpeg)
-*Figure 2. Skopia viewshed of the area, after being filled the dam with water*
+*Figure 3. Skopia viewshed of the area, after being filled the dam with water*
+
+## License
+
+[Apache License Version 2.0](./LICENSE)
