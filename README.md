@@ -1,6 +1,8 @@
 # Palioderli-Dam
 This repository is the water deposit analysis of the Palioderli dam at Skopia (Greece)
 
+![Palioderli dam](./images/cover.jpg)
+
 ## Introduction
 
 Skopia (Greece) is a small village in Municipality of Farsala, more [here](https://el.wikipedia.org/wiki/%CE%A3%CE%BA%CE%BF%CF%80%CE%B9%CE%AC_%CE%A6%CE%B1%CF%81%CF%83%CE%AC%CE%BB%CF%89%CE%BD).
