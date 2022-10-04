@@ -50,7 +50,7 @@ if("palioderli-dem@1" < 350.50, 350.50, "palioderli-dem@1")
 
 ## Analysis
 
-Case study the dam is located in Χ = 0372321, Y = 4336653 (EPSG:2310), Water height 350.50 m.
+The dam will be constructed @ Χ = 0372321, Y = 4336653 (EPSG:2100) and water deposit height will be 350.50 m.
 
 ### Water deposit of the Palioderli Dam
 
