@@ -1,7 +1,7 @@
 # Palioderli-Dam
 This repository is the water deposit analysis of the Palioderli dam at Skopia (Greece)
 
-![Palioderli dam](./images/cover.jpg)
+![Palioderli dam](./images/cover.proposal.jpg)
 
 ## Introduction
 
@@ -45,24 +45,26 @@ gdal_polygonize.bat ./data/raster/water-deposit.tif -b 1 -f "ESRI Shapefile" ./d
 Calculate the DEM after filling the dam, in QGIS -> Raster Calculator
 
 ```text
-if("palioderli-dem@1" < 412, 412, "palioderli-dem@1")
+if("palioderli-dem@1" < 350.50, 350.50, "palioderli-dem@1")
 ```
 
 ## Analysis
 
+Case study the dam is located in Χ = 0372321, Y = 4336653 (EPSG:2310), Water height 350.50 m.
+
 ### Water deposit of the Palioderli Dam
 
-![Water Deposit](./images/water-deposit.jpeg)
+![Water Deposit](./images/water-deposit.proposal.jpeg)
 *Figure 1. Palioderli dam water deposit after filling with 76 meter water height.*
 
 ### 3D Psedo topography
 
-![Psedo 3D Map](./images/psedo-3d.jpeg)
+![Psedo 3D Map](./images/psedo-3d.proposal.jpeg)
 *Figure 2. Psedo 3D map, after being filled the dam with water*
 
 ### Viewshed from the Skopia village to the water deposit
 
-![Viewshed](./images/viewshed.jpeg)
+![Viewshed](./images/viewshed.proposal.jpeg)
 *Figure 3. Skopia viewshed of the area, after being filled the dam with water*
 
 ## License
